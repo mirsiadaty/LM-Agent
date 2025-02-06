@@ -14,6 +14,8 @@ user_request = "how many days till the next solar eclipse"
 
 The first step taken by the Agent:
 
+The Agent autonomously reasons that in order to answer the question, it first needs to find the date for next eclipse and then calculate the days.
+
 ```
 * LLM response: 
 Thought: To answer this question, I need to find out the date of the next solar eclipse and then calculate the difference between that date and today's date. 
